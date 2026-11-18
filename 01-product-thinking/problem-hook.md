@@ -1,53 +1,13 @@
-# Problem Hook & Value Proposition: [StreamLine / RouteLogic / your initiative]
+# Problem Hook & Value Proposition (Module 1)
 
-> **Module 1 · ★ Deliverable 1.** Repo file `01-product-thinking/problem-hook.md` — part of your submission.
-> Do the lab in the **Module 1 · Exercise 2 Guide** (linked from the Module 1 deck), then click **⬇ Download .md** — it saves as this exact file. Commit it here.
-> It becomes the **Problem, Value & Hypothesis** slide of your Module 6 final deck. (Your Module 1 · Exercise 1 discovery map lands in `strategic-map.md`.)
+## Responses
+- **Chosen path, which scenario are you committing to? (StreamLine or RouteLogic, or your own):** My own- creating a new product internally for instructors to be able to self select courses that they want to teach.
+- **Strategic crisis, based on the brief, if the company does nothing for 12 months, what happens to its market position?:** The instructors might become increasingly frustrated with the confusion in scheduling, resulting in a strained relationship and lack of confidence in the job/company.
+- **Moment of misery, what is the user likely doing outside the product (Google, spreadsheets, a competitor) because your tool isn’t serving them?:** Instructors have to rely on emails to find out which courses are available and express interest, while I'm manually tracking responses, checking availability, and coordinating assignments across multiple tools.
+- **Problem hook, summarize the business risk and user pain into one urgent sentence.:** Instructors lack an easy way to find and request available courses, creating unnecessary back-and-forth that slows down scheduling and puts Product School at risk of unfilled courses and lost revenue.
+- **Value proposition, based on the proposed initiative (Spotlight or Velocity), what is the new value and why is it urgent to launch now?:** The new value is that with the new initiative, instructors will be able to self select the courses they are interested in, and be able to see real time availability/when courses are no longer available. This will also make it so that I do not double book courses.
 
-## 1. Chosen scenario
-
-**Path:** _StreamLine Spotlight (B2C) · RouteLogic Velocity (B2B) · my own initiative_
-
-_One line on why you picked it._
-
-## 2. The strategic crisis
-
-_The big-picture business risk. If the company does nothing for 12 months, what happens to its market position?_
-
-> If we do nothing for 12 months, the company will…
-
-## 3. The moment of misery
-
-_The specific point where the product fails the user, forcing a manual workaround (Google, spreadsheets, group texts, a competitor)._
-
-> The user is currently forced to…
-
-## 4. Problem hook
-
-_One urgent sentence fusing the business risk and the user pain, your pitch for why this is the most important thing to work on right now._
-
-> We must solve [business risk] by addressing [user pain]…
-
-## 5. Value proposition
-
-_Who it's for, the new value, and why it's urgent to launch now._
-
-> For **[who]**, we will **[value]** because **[urgent why]**.
-
-## 6. Cold-read self-review
-
-_Read your hook back as a skeptical stakeholder. If you don't feel the urgency, that's your data._
-
-| Question | Your answer |
-|---|---|
-| Is the business risk high-stakes enough to justify a new initiative? | _____ |
-| Is the moment of misery systemic, or just an edge case? | _____ |
-| Does the value proposition actually remove the obstacle? | _____ |
-
-## 7. Finalized hypothesis _(complete in Module 3)_
-
-> Based on [qual + quant evidence], I believe that [solving X] for [persona] will result in [outcome], as measured by a [X%] change in [success metric]. I will protect [guardrail metric] and make a go/no-go decision after [decision window].
-
-## Link to full artifact
-
-_[link to your Problem Hook Builder export]_
+## Cold-read your own hook
+- **Is the business risk high enough to justify a new initiative, a high-stakes threat, or a minor inconvenience?:** The business risk is high enough to justify a new initiative. I wouldn't say it's a high-stakes threat, but it definitely causes frustration to both the instructors and myself.
+- **Is the moment of misery a systemic problem or just an edge case?:** Systemic
+- **Does the value proposition actually remove the obstacle you identified, or is it a generic feature?:** Yes, the value proposition directly addresses the problem by giving instructors a centralized place to view and request available courses, eliminating the need for constant email exchanges and reducing manual coordination for the recruiting team.
