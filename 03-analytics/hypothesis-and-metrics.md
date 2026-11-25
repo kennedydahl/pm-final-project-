@@ -1,17 +1,47 @@
-# Hypothesis & Success Metrics
+# Hypothesis & Success Metrics (Module 3)
 
-> **Module 3 · ★ Deliverable 3.** Repo file `03-analytics/hypothesis-and-metrics.md` — part of your submission.
-> Do the lab in the **Module 3 · Exercise Guide** (linked from the Module 3 deck), then click **⬇ Download .md** — it saves as this exact file. Commit it here.
-> It feeds the **Problem, Value & Hypothesis** slide of your Module 6 final deck.
+## Pre-work · Hypothesis check
+- **Role , who you are solving for (from M2):** I am solving for two people- the instructors that teach with Product School, as well as myself who coordinates all of the instructors for the cohorts.
+- **Goal , what this user is ultimately trying to achieve:** A seamless way for instructors to be able to log on and see what courses are still available and in need of instructors. I would like for them to be able to select from a list, and essentially enter a request that gets confirmed or denied and let's them know if they will be teaching that cohort.
+- **Friction / moment of misery , the specific pain blocking their goal:** Classes end up being double booked which is my moment of misery- having to figure out who requested the course first, sifting through emails in multiple tabs to compare requests that instructors sent with each other to see any overlap.
+For instructors, the moment of misery is lack of communication with me as emails come at inconvenient times, get buried under other responses, etc.
+- **Current workaround , the external tool or manual process they rely on (M2):** Instructors have to rely on emails to find out which courses are available and express interest, while I'm manually tracking responses, checking availability, and coordinating assignments across multiple tools.
+- **Problem Hook , your one-sentence framing of the business crisis (M1):** Instructors lack an easy way to find and request available courses, creating unnecessary back-and-forth that slows down scheduling and puts Product School at risk of unfilled courses and lost revenue.
+- **Value Proposition , the outcome your initiative promised to deliver (M1):** The new value is that with the new initiative, instructors will be able to self select the courses they are interested in, and be able to see real time availability/when courses are no longer available. This will also make it so that I do not double book courses. This reduces friction for the student success team as well- when courses are double booked they have to reach out to me to figure out which instructor is the correct instructor.
 
-## Finalized product hypothesis
+## Read your data snapshots
+- **Does the funnel data confirm your M2 friction point, or does it tell a different story? Note where the numbers align with the qualitative pain you found and where they diverge.:** Yes, the data supports my original friction points. With 58% of instructors messaging the coordinator directly and only 19% accessing the master schedule, it's clear that instructors aren't getting the visibility they need through the current process. Additionally, 31% are swapping courses informally, which creates scheduling inaccuracies. This reinforces my hypothesis that a centralized tool with real-time course availability and an approval process could reduce confusion, manual work, and double-booking. However, email doesn't necessarily seem to be the main issue since that is how we communicate most- it is more so that they are not able to see real time changes once I give a course to another instructor, they are choosing based on my original email when more were available.
+- **Do the retention patterns align with the workaround your M2 persona used to find content? Note what the Mo. 0→1 drop suggests about the onboarding experience your persona described as frustrating.:** Yes, the funnel supports the friction I identified. While 72% of instructors reply with their course choices, only 34% receive confirmation for any course within 48 hours. The average confirmation takes 52 hours, and resolving conflicts requires multiple emails. This helps explain why instructors may message me directly instead of waiting for an email response. It also reinforces the need for a centralized system where instructors can see real-time availability, request courses, and track their confirmation status without unnecessary back-and-forth. It is important to note that not only do instructors want to see what courses are available in real time, they also want a quicker turn around to know whether they have received their requested course.
+- **Does the LTV gap and the content mix (61% trending for Wanderers) confirm the moment of misery your persona described? Note which segment your persona is in and whether the data confirms their pain.:** The cells that best match my friction points are the 1.7/5 satisfaction score for part-time instructors making course selections and the 1.8/5 score for the coordinator's confirmation process. This confirms that instructors struggle with selecting courses and that managing confirmations is a major pain point for me.
 
-> Based on [qual + quant evidence], I believe that [solving X] for [persona] will result in [outcome], as measured by a [X%] change in [success metric]. I will protect [guardrail metric] and make a go/no-go decision after [decision window].
+Instructor NPS has dropped from +31 to +4, and 4 out of 32 instructors are now declining to return because of scheduling issues. This shows that the problem is becoming more urgent because it could affect instructor retention, course availability, and ultimately Product School's revenue.
 
-## Success metrics
+However, the data does show that instructors actually like personal communication, so there should still be a way in which we preserve that relationship.
+- **Does the low adoption confirm your persona is burdened by tools they don’t use? Note whether the low scheduling adoption (42%) for coordinators matches your M2 moment of misery.:** _(not filled in)_
+- **Does the workflow data match the manual process or hack you documented in M2? Note whether the specific drop-offs or time gaps explain why your persona avoids the digital tool.:** _(not filled in)_
+- **Look at the CSAT heatmap. Which specific cell most directly maps to your persona’s friction? Note how the NPS trend justifies the urgency of your M1 Problem Hook.:** _(not filled in)_
 
-| Metric | Type | Target | Why it matters |
-|---|---|---|---|
-| _North-star_ | | _____ | _____ |
-| _Leading indicator_ | | _____ | _____ |
-| _Guardrail_ | | _____ | _____ |
+## Step 3 · Craft your hypothesis
+- **Qualitative evidence (from M2) , quote the specific friction / moment of misery for your persona:** Instructors request courses they want to teach, only to find out someone else has already claimed them. They then have to adjust their schedules, choose different courses, and wait for another confirmation. EX: "I replied within ten minutes and still lost the course. Someone else had replied to an older email thread first. Nobody told me for two days."
+
+Manually tracking instructor requests across multiple email threads leads to double-bookings, confusion over who is teaching which course, and hours spent resolving scheduling conflicts. EX: "Every term I send over 30 separate emails and track the replies in my inbox."
+- **Quantitative evidence (from M3) , name the metric or data point that confirms the pain; cite the number:** Only 41% of instructors received confirmation for their first-choice course, and the average confirmation time was 52 hours.
+
+Each scheduling round results in 9 course conflicts and requires an average of 10.2 hours of coordinator time.
+- **Persona , role, goal, and the friction you confirmed in the reconciliation steps:** **Persona 1: Part-time Instructor**
+- **Role:** An instructor balancing teaching opportunities with a full-time job and other commitments.
+- **Goal:** Easily find, select, and receive confirmation for courses that fit their schedule.
+- **Friction:** Limited visibility into course availability and delayed confirmations cause instructors to request unavailable courses and rearrange their schedules.
+
+**Persona 2: Programme Coordinator (Myself)**
+- **Role:** The person responsible for scheduling courses and managing instructor assignments.
+- **Goal:** Fill courses efficiently and accurately without excessive manual work.
+- **Friction:** Managing requests across multiple email threads creates scheduling conflicts, confusion over instructor assignments, and unnecessary administrative work.
+- **Problem you are solving , one sentence describing the specific friction this initiative removes:** The manual scheduling process creates limited visibility into course availability, delayed confirmations, and double-bookings, leading to instructor frustration and poor instructor retention.
+- **Strategic outcome , what behaviour change do you expect, and how does it map to retention / revenue / churn?:** I expect instructors to move from manually emailing their course preferences to independently selecting available courses and tracking their confirmation status. By simplifying the scheduling experience and reducing conflicts, we expect to improve instructor retention, reduce churn caused by scheduling frustrations, and protect revenue by ensuring courses are staffed more efficiently.
+- **Primary success metric (initiative signal) , the leading indicator that tells you the gap is closing:** A reduction in the average time spent manually coordinating instructor schedules, from the current baseline of 10.2 hours per scheduling round toward the self-service benchmark of 2 hours.
+- **Guardrail metric (product signal) , the metric that must NOT drop; it protects your existing base:** Instructor satisfaction with personal communication must not fall below the current scores of 4.2/5 for part-time instructors and 4.4/5 for full-time instructors as we transition to a self-service scheduling process.
+- **Decision window , how much time or data before you scale, pivot, or kill? minimum threshold to proceed?:** Evaluate the initiative after two complete scheduling rounds. Proceed with scaling if manual coordination time decreases by at least 50% while maintaining existing instructor satisfaction with personal communication. Pivot if efficiency improves but instructor satisfaction declines, and consider discontinuing the initiative if it fails to deliver meaningful improvements after further iteration.
+- **Draft your full hypothesis sentence , one to three sentences; quote the metric, name the persona, name the outcome:** Based on instructor feedback regarding unavailable courses, delayed confirmations, and scheduling conflicts, alongside data showing an average confirmation time of 52 hours, 9 scheduling conflicts per round, and 10.2 hours of manual coordination, I believe that introducing a centralized, self-service scheduling platform for instructors and the programme coordinator will improve scheduling efficiency, instructor satisfaction, and retention, while reducing the risk of unfilled courses.
+
+Success will be measured by a 50% reduction in manual coordination time, from 10.2 hours to 5.1 hours or less per scheduling round. I will protect instructor satisfaction with personal communication, maintaining scores of 4.2/5 for part-time instructors and 4.4/5 for full-time instructors, and will make a go/no-go decision after two complete scheduling rounds.
